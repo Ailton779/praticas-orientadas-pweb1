@@ -16,15 +16,29 @@ funções, formulários HTML, sessões e cookies.
 | [Atividade 4](./pratica-orientada-1/atividade-4-controle-acesso-cookies) | Controle de Acesso com Cookies | Cookies, persistência entre acessos |
 | [Atividade 5](./pratica-orientada-1/atividade-5-desafio-integrador) | Desafio Integrador | Integração de todos os conceitos anteriores |
 
+## Prática Orientada 2 — Atividades
+
+Evolução dos sistemas da Prática 1 para o paradigma de Programação
+Orientada a Objetos, aplicando recursos modernos do PHP 8.x, como preparo
+para a estrutura interna do Laravel.
+
+| Atividade | Descrição | Conceitos principais |
+|---|---|---|
+| [Atividade 1](./pratica-orientada-2/atividade-1-classe-aluno) | Refatoração para Classe | Tipagem forte, encapsulamento, constructor promotion, readonly |
+| [Atividade 2](./pratica-orientada-2/atividade-2-gerenciador-turma) | Gerenciador de Turma | Composição entre classes |
+| [Atividade 3](./pratica-orientada-2/atividade-3-interfaces-polimorfismo) | Interfaces e Polimorfismo | Interface, implements, polimorfismo |
+| [Atividade 4](./pratica-orientada-2/atividade-4-classe-abstrata-trait) | Classe Abstrata e Trait | Herança, classe abstrata, trait |
+| [Atividade 5](./pratica-orientada-2/atividade-5-injecao-dependencia) | Injeção de Dependência | DI, separação de responsabilidades |
+
 Cada pasta de atividade contém seu próprio README com objetivo, conceitos
 aplicados, instruções de execução e casos de teste sugeridos.
 
 ## Como executar qualquer atividade
 
-Todas as atividades da Prática 1 usam o servidor embutido do PHP:
+Todas as atividades das Práticas 1 e 2 usam o servidor embutido do PHP:
 
 ```bash
-cd pratica-orientada-1/nome-da-atividade
+cd pratica-orientada-N/nome-da-atividade
 php -S localhost:8000
 ```
 
